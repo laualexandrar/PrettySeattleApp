@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "233167196350",
+    "firebase_url": "https://prettyseattleapp.firebaseio.com",
+    "project_id": "prettyseattleapp",
+    "storage_bucket": "prettyseattleapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233167196350:android:6ff788b3aee2b8ba3c0eef",
+        "android_client_info": {
+          "package_name": "com.lroap.prettyseattle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233167196350-g6ho4jd0ocoitv65hoqer6umtr4tla7l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lroap.prettyseattle",
+            "certificate_hash": "675b50b831534d0f736993bdf68a553883aabb77"
+          }
+        },
+        {
+          "client_id": "233167196350-nm70k76trlqufu2grrg48aad41v0vaun.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKOsC88FrfKSe-39J97YZ-LK3y7NepYH4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233167196350-nm70k76trlqufu2grrg48aad41v0vaun.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

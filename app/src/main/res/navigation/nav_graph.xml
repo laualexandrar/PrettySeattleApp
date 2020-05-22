@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navHomeFragment">
+
+    <fragment
+        android:id="@+id/navHomeFragment"
+        android:name="com.lroap.prettyseattle.view.ui.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_futureEventsFragment"
+            app:destination="@id/navFutureEventsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navFutureEventsFragment"
+        android:name="com.lroap.prettyseattle.view.ui.fragments.FutureEventsFragment"
+        android:label="fragment_future_events"
+        tools:layout="@layout/fragment_future_events">
+        <action
+            android:id="@+id/action_futureEventsFragment_to_picturesFragment"
+            app:destination="@id/navPictureFragment" />
+        <action
+            android:id="@+id/action_navFutureEventsFragment_to_futureEventsDetailFragmentDialog"
+            app:destination="@id/futureEventsDetailFragmentDialog" />
+    </fragment>
+    <fragment
+        android:id="@+id/navPictureFragment"
+        android:name="com.lroap.prettyseattle.view.ui.fragments.PicturesFragment"
+        android:label="fragment_pictures"
+        tools:layout="@layout/fragment_pictures">
+        <action
+            android:id="@+id/action_picturesFragment_to_ubicationFragment"
+            app:destination="@id/navMapFragment" />
+        <action
+            android:id="@+id/action_navPictureFragment_to_picturesDetailFragmentDialog"
+            app:destination="@id/picturesDetailFragmentDialog" />
+    </fragment>
+    <fragment
+        android:id="@+id/navMapFragment"
+        android:name="com.lroap.prettyseattle.view.ui.fragments.UbicationFragment"
+        android:label="fragment_ubication"
+        tools:layout="@layout/fragment_ubication">
+        <action
+            android:id="@+id/action_navMapFragment_to_UbicationDetailFragmentDialog"
+            app:destination="@id/UbicationDetailDialogFragment" />
+    </fragment>
+
+    <dialog
+        android:id="@+id/picturesDetailFragmentDialog"
+        android:name="com.lroap.prettyseattle.view.ui.fragments.PicturesDetailDialogFragment"
+        android:label="PicturesDetailFragmentDialog"
+        tools:layout="@layout/fragment_pictures_detail_dialog" />
+
+    <dialog
+        android:id="@+id/futureEventsDetailFragmentDialog"
+        android:name="com.lroap.prettyseattle.view.ui.fragments.FutureEventsDetailDialogFragment"
+        android:label="futureEventsDetailDialogFragment"
+        tools:layout="@layout/fragment_future_events_detail_dialog" />
+
+    <dialog
+        android:id="@+id/UbicationDetailDialogFragment"
+        android:name="com.lroap.prettyseattle.view.ui.fragments.UbicationDetailDialogFragment"
+        android:label="UbicationDetailDialogFragment"
+        tools:layout="@layout/fragment_ubication_detail_dialog" />
+
+</navigation>

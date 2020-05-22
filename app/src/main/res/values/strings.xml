@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PrettySeattle</string>
+
+    <string name="inicio_frag_tv_donde">¿Quieres saber donde se encuentran los lugares mas hermosos de Seattle y sus alrededores?</string>
+    <string name="inicio_frag_tv_donde_resp">Seattle Washington es la ciudad mas grande del estado de Washington y se encuentra ubicada al noroeste de Estados Unidos de America. Acompañanos a conocer esta hermosa ciudad y a recorrer con nosotros la ruta de estos hermosos paisajes </string>
+    <string name="inicio_frag_tv_por_que">¿Por qué visitar esta hermosa ciudad?</string>
+    <string name="inicio_frag_tv_por_que_resp">Porque tiene gran variedad de atracciones turisticas.
+Porque es la tierra natal de la música grunge.
+Porque es una ciudad llena de naturaleza y rodeada de paisajes increibles
+Porque es el lugar perfecto para descansar y de paso recorrer gran parte de la ciudad en un solo día</string>
+    <string name="inicio_frag_tv_info">Información de PrettySeattle</string>
+    <string name="inicio_frag_tv_info_resp">
+        \u0009 &#8226; Siguenos en instragram como @prettySeattle.\n
+        \u0009 &#8226; Cuentanos sobre un lugar al que no hayamos ido.\n
+        \u0009 &#8226; Comparte nuestras publicaciones.\n
+        \u0009 &#8226; Recomienda nuestra app.\n</string>
+
+
+
+</resources>
